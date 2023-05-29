@@ -1,0 +1,115 @@
+html{
+    height: 100%;
+}
+body {
+    height: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: stretch;
+
+}
+
+.view{
+    display: flex;
+    flex: 1;
+    height: 100%;
+    align-items: stretch;
+}
+
+.sidebar{
+    align-items: stretch;
+    flex-direction: column;
+    width: 200px ;
+    background-color: black;
+    height: 100%;
+}
+
+.actions{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    box-sizing: border-box;
+}
+
+.text{
+    padding: 5px;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.home{
+    display: flex;
+    padding: 5px;
+}
+
+.contact{
+    display: flex;
+    padding: 5px;
+}
+
+.text:hover{
+    background-color: grey;
+}
+
+.content{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+}
+
+.text-content{
+    align-items: center;
+    justify-content: center;
+    padding:30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: gray;
+}
+
+.text-content p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-weight: 600;
+    text-align: center;
+}
+
+.last{
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.icon{
+    display: block;
+    width: 50%;
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 10px;
+}
+
+.img-text{
+
+}
+
+.view-content{
+}
+
+.content-text{
+    text-align: justify;
+}
