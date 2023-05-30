@@ -18,6 +18,7 @@ body {
 }
 
 .sidebar {
+    position: fixed;
     align-items: stretch;
     flex-direction: column;
     width: 150px;
@@ -26,16 +27,17 @@ body {
 }
 
 .actions {
-    padding: 5px;
     display: flex;
     flex-direction: column;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
+    border-top: 1px solid  #5C5C5C;
+    border-bottom: 1px solid #5C5C5C;
     box-sizing: border-box;
 }
 
 .text {
-    padding: 5px;
+    padding-left: 16px;
+    padding-top: 14px;
+    padding-bottom: 11px;
     color: white;
     width: 100%;
     box-sizing: border-box;
@@ -43,16 +45,21 @@ body {
 
 .home {
     display: flex;
-    padding: 5px;
 }
 
 .contact {
     display: flex;
-    padding: 5px;
 }
 
-.text:hover {
-    background-color: grey;
+.actions a:hover {
+    background-color: #5C5C5C;;
+}
+.home a:hover {
+    background-color: #5C5C5C;;
+}
+.contact a:hover{
+    background-color: #5C5C5C;;
+
 }
 
 .content {
@@ -60,7 +67,7 @@ body {
     width: 90%;
     flex-direction: column;
     align-items: center;
-    margin-left: 129px;
+    margin-left: 279px;
     margin-right: 129px;
 }
 
@@ -69,11 +76,10 @@ body {
 }
 
 .text-content {
+    margin-top: 30px;
     align-items: center;
     justify-content: center;
-    padding: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
+    padding: 38px;
     background-color: #EFEFEF;
 }
 
@@ -81,6 +87,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 229px;
+    margin-right: 229px;
 }
 
 .h2 {
@@ -112,8 +120,8 @@ body {
     height: 128px;
     width: 128px;
     float: left;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    margin-right: 16px;
+    margin-bottom: 6px;
 }
 
 .content-text {
@@ -126,4 +134,11 @@ body {
 
 .view-content p {
     font-size: 24px;
+}
+.last{
+    margin-top: 40px;
+}
+
+.img-text{
+    margin-top: 18px;
 }
