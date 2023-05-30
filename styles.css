@@ -157,12 +157,11 @@ body {
 }
 
 footer {
+    display: flex;
     padding-left: 279px;
     width: 100%;
     border-top: 1px solid #5C5C5C;
     height: 79px;
     max-height: 79px;
     align-items: center;
-    bottom: 0;
-    left: 0;
 }
